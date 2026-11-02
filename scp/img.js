@@ -78,3 +78,6 @@ document.addEventListener("visibilitychange", () => {
 window.addEventListener("blur", () => {
     if (armed) freeze();
 });
+
+window._imgFreeze = enterFullscreen;
+
